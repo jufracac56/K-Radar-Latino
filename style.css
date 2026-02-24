@@ -144,12 +144,18 @@ h1, h2, h3 {
   font-size: 2rem;
 }
 
+
 .rounded-4 {
-  border-radius: 2rem !important;
+  border-radius: 2.5rem !important;
 }
 
 .shadow-lg {
-  box-shadow: 0 0 40px 8px #ff00cc44, 0 0 80px 16px #00f0ff22 !important;
+  box-shadow: 0 0 32px 8px #ffffff33, 0 0 80px 16px #00f0ff33 !important;
+}
+
+img.img-fluid.rounded-4.shadow-lg {
+  border-radius: 2.5rem !important;
+  box-shadow: 0 0 32px 8px #fff8, 0 0 80px 16px #00f0ff44 !important;
 }
 
 .legal-links a {
